@@ -38,7 +38,6 @@
 
     <TextView
         android:id="@+id/textView40"
-        android:id="@+id/checkBox12"
         android:layout_width="160dp"
         android:layout_height="39dp"
         android:layout_marginBottom="568dp"
@@ -49,7 +48,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.011"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/toolbar7"
         app:layout_constraintVertical_bias="0.179" />
 
     <TextView
@@ -111,7 +109,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.62"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/toolbar7"
+        app:layout_constraintTop_toTopOf="@id/textView39"
         app:layout_constraintVertical_bias="0.303" />
 
     <RadioButton
