@@ -11,7 +11,7 @@
         android:id="@+id/textView31"
         android:layout_width="188dp"
         android:layout_height="18dp"
-        android:text="Primary histology"
+        android:text="primary histology"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

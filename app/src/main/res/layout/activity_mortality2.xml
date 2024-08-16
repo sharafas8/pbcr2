@@ -7,6 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".mortality2">
 
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="140dp"
+        android:layout_height="41dp"
+        android:text="Date of Death"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33" />
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar8"
         android:layout_width="410dp"
@@ -53,20 +65,20 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="405dp"
-        android:layout_height="64dp"
+        android:layout_width="396dp"
+        android:layout_height="45dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.249">
+        app:layout_constraintVertical_bias="0.184">
 
         <TextView
             android:id="@+id/textView41"
-            android:layout_width="240dp"
-            android:layout_height="47dp"
+            android:layout_width="230dp"
+            android:layout_height="34dp"
             android:text="Specify the patient is alive or not" />
 
         <RadioButton
@@ -84,18 +96,109 @@
     </RadioGroup>
 
     <TextView
-        android:id="@+id/textView42"
-        android:layout_width="240dp"
-        android:layout_height="47dp"
-        android:text="Mortality Details" />
+        android:id="@+id/textView40"
+        android:layout_width="127dp"
+        android:layout_height="33dp"
+        android:background="#CDDC39"
+        android:text=" Mortality Details"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <CalendarView
+        android:id="@+id/calendarView2"
+        android:layout_width="153dp"
+        android:layout_height="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.717"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331" />
 
     <TextView
-        android:id="@+id/textView40"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="327dp" />
+        android:id="@+id/textView44"
+        android:layout_width="174dp"
+        android:layout_height="50dp"
+        android:text="Mortality Registration Number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418" />
+
+    <EditText
+        android:id="@+id/editTextText44"
+        android:layout_width="211dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="mortality registration number"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="398dp"
+        android:layout_height="67dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575">
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="yes" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="402dp"
+        android:layout_height="34dp"
+        android:background="#00BCD4"
+        android:text="Place of Death"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" /><![CDATA[
+
+
+
+
+
+
     app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.113"
@@ -103,4 +206,9 @@
         app:layout_constraintTop_toBottomOf="@+id/radioGroup"
         app:layout_constraintVertical_bias="0.049" />
 
+
+
+
+]]>
+]]>
 </androidx.constraintlayout.widget.ConstraintLayout>

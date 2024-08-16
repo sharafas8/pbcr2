@@ -53,8 +53,8 @@
 
     <EditText
         android:id="@+id/editTextText34"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="222dp"
+        android:layout_height="52dp"
         android:ems="10"
         android:hint="District"
         android:inputType="text"
@@ -70,8 +70,8 @@
 
     <Spinner
         android:id="@+id/spinner17"
-        android:layout_width="134dp"
-        android:layout_height="40dp"
+        android:layout_width="159dp"
+        android:layout_height="26dp"
         android:layout_marginBottom="112dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -82,8 +82,8 @@
 
     <EditText
         android:id="@+id/editTextText36"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="222dp"
+        android:layout_height="52dp"
         android:ems="10"
         android:inputType="text"
         android:text="Institution Name"
@@ -113,8 +113,9 @@
         android:layout_width="218dp"
         android:layout_height="60dp"
         android:ems="10"
+        android:hint="Hospital/lab Registration Date"
         android:inputType="text"
-        android:text="Hospital/lab Registration Date"
+        android:textColorHint="#140F0F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.121"
@@ -127,8 +128,9 @@
         android:layout_width="212dp"
         android:layout_height="51dp"
         android:ems="10"
+        android:hint="OP/IP/Hospital Registration No"
         android:inputType="text"
-        android:text="OP/IP/Hospital Registration No"
+        android:textColorHint="#0D0A0A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.094"
@@ -138,11 +140,12 @@
 
     <EditText
         android:id="@+id/editTextText40"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="222dp"
+        android:layout_height="52dp"
         android:ems="10"
+        android:hint="Date of first Diagnosis"
         android:inputType="text"
-        android:text="Date of first Diagnosis"
+        android:textColorHint="#090606"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.094"
@@ -172,45 +175,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.463" />
-
-    <EditText
-        android:id="@+id/editTextText41"
-        android:layout_width="151dp"
-        android:layout_height="53dp"
-        android:ems="10"
-        android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.594" />
-
-    <EditText
-        android:id="@+id/editTextText42"
-        android:layout_width="168dp"
-        android:layout_height="49dp"
-        android:ems="10"
-        android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.725" />
-
-    <EditText
-        android:id="@+id/editTextText43"
-        android:layout_width="145dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.913"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.849" />
 
     <Button
         android:id="@+id/button"
