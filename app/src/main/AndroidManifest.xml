@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Pbcr"
         tools:targetApi="31">
         <activity
+            android:name=".incident10"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".incident9"
+            android:exported="false" />
+        <activity
+            android:name=".incident9"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".incident7"
             android:exported="false" />
         <activity
