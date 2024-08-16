@@ -24,16 +24,12 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class MainActivity extends AppCompatActivity {
-    private static final String TAG = "MainActivity";
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final String[] status = {""};
-        Log.d(TAG, "working");
-        String result = "";
 
 
 

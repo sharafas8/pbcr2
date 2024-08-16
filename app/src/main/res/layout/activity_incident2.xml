@@ -164,27 +164,13 @@
         app:layout_constraintVertical_bias="0.432" />
 
     <EditText
-        android:id="@+id/editTextDate"
-        android:layout_width="148dp"
-        android:layout_height="41dp"
-        android:ems="10"
-        android:hint="Date"
-        android:inputType="date"
-        android:textColorHint="#0F0D0D"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.937"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.489" />
-
-    <EditText
         android:id="@+id/editTextText14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Mother's Name	"
         android:inputType="text"
-        android:text="Name"
+        android:textColorHint="#160202"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.054"
@@ -197,8 +183,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Father's Name	"
         android:inputType="text"
-        android:text="Name"
+        android:textColorHint="#100101"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.054"
@@ -211,8 +198,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Husband/Wife Name	"
         android:inputType="text"
-        android:text="Name"
+        android:textColorHint="#100000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.054"
@@ -222,17 +210,18 @@
 
     <EditText
         android:id="@+id/editTextText17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        android:layout_height="44dp"
         android:ems="10"
+        android:hint="Son(s) and Daughter(s) Name"
         android:inputType="text"
-        android:text="Name"
+        android:textColorHint="#160202"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintHorizontal_bias="0.215"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.74" />
+        app:layout_constraintVertical_bias="0.742" />
 
     <Spinner
         android:id="@+id/spinner3"
@@ -313,7 +302,7 @@
         android:text="back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.994" />
