@@ -67,7 +67,7 @@
         app:layout_constraintVertical_bias="0.017" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/spn1"
         android:layout_width="196dp"
         android:layout_height="33dp"
         android:layout_marginStart="8dp"
@@ -106,7 +106,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.064"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:layout_constraintTop_toBottomOf="@+id/spn1"
         app:layout_constraintVertical_bias="0.022" />
 
     <EditText
