@@ -397,8 +397,8 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <RadioGroup
-        android:layout_width="408dp"
-        android:layout_height="98dp"
+        android:layout_width="413dp"
+        android:layout_height="102dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -407,13 +407,13 @@
         app:layout_constraintVertical_bias="0.328" />
 
     <RadioGroup
-        android:layout_width="127dp"
-        android:layout_height="45dp"
+        android:layout_width="136dp"
+        android:layout_height="51dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintHorizontal_bias="0.981"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.895" />
+        app:layout_constraintVertical_bias="0.898" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
