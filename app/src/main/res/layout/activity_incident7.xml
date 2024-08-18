@@ -40,15 +40,14 @@
         android:id="@+id/textView40"
         android:layout_width="160dp"
         android:layout_height="39dp"
-        android:layout_marginBottom="568dp"
+        android:layout_marginBottom="564dp"
         android:text="Site of tumer"
         android:textAlignment="gravity"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.011"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.179" />
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView41"
@@ -279,21 +278,21 @@
 
     <RadioGroup
         android:id="@+id/radioGroup2"
-        android:layout_width="410dp"
-        android:layout_height="237dp"
+        android:layout_width="414dp"
+        android:layout_height="240dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.87" />
+        app:layout_constraintVertical_bias="0.871" />
 
     <RadioGroup
         android:layout_width="413dp"
         android:layout_height="194dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.387" />
