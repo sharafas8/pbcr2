@@ -205,8 +205,8 @@
 
     <CheckBox
         android:id="@+id/checkBox4"
-        android:layout_width="76dp"
-        android:layout_height="54dp"
+        android:layout_width="113dp"
+        android:layout_height="59dp"
         android:text="CAD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -217,44 +217,44 @@
 
     <CheckBox
         android:id="@+id/checkBox6"
-        android:layout_width="76dp"
-        android:layout_height="54dp"
+        android:layout_width="113dp"
+        android:layout_height="59dp"
         android:text="COPD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintHorizontal_bias="0.946"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.688" />
+        app:layout_constraintVertical_bias="0.683" />
 
     <CheckBox
         android:id="@+id/checkBox7"
-        android:layout_width="76dp"
-        android:layout_height="54dp"
+        android:layout_width="113dp"
+        android:layout_height="59dp"
         android:text="D.M"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/toolbar4"
-        app:layout_constraintVertical_bias="0.688" />
+        app:layout_constraintVertical_bias="0.682" />
 
     <CheckBox
         android:id="@+id/checkBox8"
-        android:layout_width="76dp"
-        android:layout_height="54dp"
+        android:layout_width="113dp"
+        android:layout_height="59dp"
         android:text="TB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintHorizontal_bias="0.946"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/toolbar4"
         app:layout_constraintVertical_bias="0.791" />
 
     <CheckBox
         android:id="@+id/checkBox9"
-        android:layout_width="76dp"
-        android:layout_height="54dp"
+        android:layout_width="113dp"
+        android:layout_height="59dp"
         android:text="JAUNDICE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -265,8 +265,8 @@
 
     <CheckBox
         android:id="@+id/checkBox10"
-        android:layout_width="76dp"
-        android:layout_height="54dp"
+        android:layout_width="113dp"
+        android:layout_height="59dp"
         android:text="CVA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -277,20 +277,20 @@
 
     <CheckBox
         android:id="@+id/checkBox11"
-        android:layout_width="76dp"
-        android:layout_height="54dp"
+        android:layout_width="113dp"
+        android:layout_height="59dp"
         android:text="OTHERS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintHorizontal_bias="0.946"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.895" />
 
     <CheckBox
         android:id="@+id/checkBox"
-        android:layout_width="76dp"
-        android:layout_height="54dp"
+        android:layout_width="113dp"
+        android:layout_height="59dp"
         android:text="HT"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -301,8 +301,8 @@
 
     <CheckBox
         android:id="@+id/checkBox2"
-        android:layout_width="76dp"
-        android:layout_height="54dp"
+        android:layout_width="113dp"
+        android:layout_height="59dp"
         android:text="EPILEPSY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
