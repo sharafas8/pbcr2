@@ -230,12 +230,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.534" />
 
-    <TextView
-        android:id="@+id/textView64"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Name of informant" />
-
     <EditText
         android:id="@+id/editTextPhone"
         android:layout_width="wrap_content"
