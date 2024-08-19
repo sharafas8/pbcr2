@@ -11,27 +11,28 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class incident3 extends AppCompatActivity {
+public class mortality1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_incident3);
-        Button btnback2 =(Button) findViewById(R.id.btnback2);
-        btnback2.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_mortality1);
+//
+        Button morback1 =(Button) findViewById(R.id.morback1);
+        morback1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(incident3.this, incident2.class);
+                Intent intent = new Intent(mortality1.this, homepage.class);
                 startActivity(intent);
                 finish();
             }
-//
+
         });
-        Button btnnext2 = (Button) findViewById(R.id.btnnext2);
-        btnnext2.setOnClickListener(new View.OnClickListener() {
+        Button mornext1 = (Button) findViewById(R.id.mornext1);
+        mornext1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View m) {
-                Intent intent = new Intent(incident3.this,incident4.class);
+                Intent intent = new Intent(mortality1.this,mortality2.class);
                 startActivity(intent);
                 finish();
             }

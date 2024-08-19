@@ -342,7 +342,7 @@
       app:layout_constraintVertical_bias="0.766" />
 
   <Button
-      android:id="@+id/button"
+      android:id="@+id/btnback9"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="BACK"
@@ -354,7 +354,7 @@
       app:layout_constraintVertical_bias="0.989" />
 
   <Button
-      android:id="@+id/button"
+      android:id="@+id/btnnext9"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="NEXT"

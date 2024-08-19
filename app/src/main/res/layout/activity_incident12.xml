@@ -344,7 +344,7 @@
         app:layout_constraintVertical_bias="0.895" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/btnback11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Back"
@@ -356,7 +356,7 @@
         app:layout_constraintVertical_bias="0.983" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/btnnext11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next"

@@ -25,7 +25,7 @@ public class incident4 extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-
+//
         });
         Button btnnext3 = (Button) findViewById(R.id.btnnext3);
         btnnext3.setOnClickListener(new View.OnClickListener() {

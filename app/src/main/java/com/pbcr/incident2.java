@@ -16,7 +16,7 @@ public class incident2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-                setContentView(R.layout.activity_incident2);
+        setContentView(R.layout.activity_incident2);
         Button btnback1 =(Button) findViewById(R.id.btnback1);
         btnback1.setOnClickListener(new View.OnClickListener() {
             @Override

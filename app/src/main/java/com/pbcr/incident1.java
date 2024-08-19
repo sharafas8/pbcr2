@@ -32,27 +32,25 @@ public class incident1 extends AppCompatActivity {
     final String TAG = "incident1";
 
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_incident1);
-        String result = "";
-        List<String> deptList = new ArrayList<>(); //declare a list for department for spinner
 
+        spinner = (Spinner) findViewById(R.id.spn1);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(incident1.this, android.R.layout.simple_spinner_item, new ArrayList<>());
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
+
+        final List<String> deptList = new ArrayList<>();
 
         new Thread(new Runnable() {
             @Override
             public void run() {
                 String result = null;
 
-
-
-
                 try {
-                    URL url = new URL("http://10.0.2.2/exm.php"); // Use 10.0.2.2 for local server access on emulator
+                    URL url = new URL("http://10.0.2.2/exm.php");
                     HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                     connection.setRequestMethod("GET");
 
@@ -73,28 +71,30 @@ public class incident1 extends AppCompatActivity {
                     } else {
                         Log.e(TAG, "Server returned non-OK response code: " + responseCode);
                     }
-
                     connection.disconnect();
 
                     if (result != null) {
                         JSONObject jsonResponse = new JSONObject(result);
                         status[0] = jsonResponse.getString("status");
-                        JSONArray data = jsonResponse.getJSONArray("data"); // fetch data as JSONArray
+                        JSONArray data = jsonResponse.getJSONArray("data");
                         deptList.add("Select department");
-                        for(int i = 0; i < data.length(); i++){ //iterate through each row in the JSONArray
-                            JSONObject row = data.getJSONObject(i); //select row
-                            String dept = row.getString("Dept"); //fetch the value by its name
-                            deptList.add(dept); // add the value to dept List
+                        for (int i = 0; i < data.length(); i++) {
+                            JSONObject row = data.getJSONObject(i);
+                            String dept = row.getString("Dept");
+                            deptList.add(dept);
                         }
 
+                        Log.d(TAG, "Data fetched: " + deptList);
 
-
-
-                        // Log the raw JSON response
-                        // Log.d(TAG, "Status: " + status[0]);
-                        Log.d(TAG, "Message: " + data);
-
-
+                        // Update the spinner on the main thread
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                adapter.clear();
+                                adapter.addAll(deptList);
+                                adapter.notifyDataSetChanged();
+                            }
+                        });
                     }
 
                 } catch (Exception e) {
@@ -102,20 +102,14 @@ public class incident1 extends AppCompatActivity {
                     Log.e(TAG, "Error: " + e.getMessage());
                 }
             }
-        }) .start();
+        }).start();
 
-        spinner=(Spinner) findViewById(R.id.spn1);
-        ArrayAdapter<String> adapter=new ArrayAdapter<>(incident1.this, android.R.layout.simple_spinner_item,deptList);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter(adapter);
-        // After updating deptList
-       adapter.notifyDataSetChanged();
         spinner.setSelection(0);
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                String value=parent.getItemAtPosition(position).toString();
-                Log.d(TAG,String.valueOf(deptList));
+                String value = parent.getItemAtPosition(position).toString();
+                Log.d(TAG, String.valueOf(deptList));
                 Log.d(TAG, value);
             }
 
@@ -123,16 +117,9 @@ public class incident1 extends AppCompatActivity {
             public void onNothingSelected(AdapterView<?> parent) {
                 Log.d(TAG, "nothing selected");
             }
-
-
-
-
         });
 
-
-
-
-        Button btnback =(Button) findViewById(R.id.btnback3);
+        Button btnback = findViewById(R.id.btnback3);
         btnback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -140,17 +127,16 @@ public class incident1 extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-
         });
-        Button btnnext = (Button) findViewById(R.id.btnnext);
+
+        Button btnnext = findViewById(R.id.btnnext);
         btnnext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View m) {
-                Intent intent = new Intent(incident1.this,incident2.class);
+                Intent intent = new Intent(incident1.this, incident2.class);
                 startActivity(intent);
                 finish();
             }
         });
-
     }
 }

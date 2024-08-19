@@ -8,7 +8,7 @@
     tools:context=".incident9">
 
     <RadioButton
-        android:id="@+id/radioButton2"
+        android:id="@+id/radioButton120"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Not Applicable"
@@ -32,7 +32,7 @@
         app:layout_constraintVertical_bias="0.9" />
 
     <RadioButton
-        android:id="@+id/radioButton"
+        android:id="@+id/radioButton121"
         android:layout_width="151dp"
         android:layout_height="48dp"
         android:text="(99) Unknown"
@@ -102,7 +102,6 @@
         android:layout_width="214dp"
         android:layout_height="22dp"
         android:text="staging System Followed"
-        android:textAppearance="bold"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -243,7 +242,7 @@
         app:layout_constraintVertical_bias="0.516" />
 
     <EditText
-        android:id="@+id/editTextText34"
+        android:id="@+id/editTextText50"
         android:layout_width="51dp"
         android:layout_height="31dp"
         android:ems="10"
@@ -256,7 +255,7 @@
         app:layout_constraintVertical_bias="0.517" />
 
     <EditText
-        android:id="@+id/editTextText34"
+        android:id="@+id/editTextText49"
         android:layout_width="51dp"
         android:layout_height="31dp"
         android:ems="10"
@@ -269,7 +268,7 @@
         app:layout_constraintVertical_bias="0.517" />
 
     <EditText
-        android:id="@+id/editTextText34"
+        android:id="@+id/editTextText40"
         android:layout_width="51dp"
         android:layout_height="31dp"
         android:ems="10"
@@ -286,7 +285,6 @@
         android:layout_width="150dp"
         android:layout_height="33dp"
         android:text="Composite stage"
-        android:textAppearance="extra bold"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -296,7 +294,7 @@
         app:layout_constraintVertical_bias="0.578" />
 
     <RadioButton
-        android:id="@+id/radioButton2"
+        android:id="@+id/radioButton112"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Stage 1"
@@ -308,7 +306,7 @@
         app:layout_constraintVertical_bias="0.653" />
 
     <RadioButton
-        android:id="@+id/radioButton2"
+        android:id="@+id/radioButton111"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Stage 2a"
@@ -320,7 +318,7 @@
         app:layout_constraintVertical_bias="0.733" />
 
     <RadioButton
-        android:id="@+id/radioButton2"
+        android:id="@+id/radioButton110"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Stage 2b"
@@ -332,7 +330,7 @@
         app:layout_constraintVertical_bias="0.733" />
 
     <RadioButton
-        android:id="@+id/radioButton2"
+        android:id="@+id/radioButton109"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Stage 2c"
@@ -344,7 +342,7 @@
         app:layout_constraintVertical_bias="0.733" />
 
     <RadioButton
-        android:id="@+id/radioButton2"
+        android:id="@+id/radioButton108"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Stage 2"
@@ -356,7 +354,7 @@
         app:layout_constraintVertical_bias="0.733" />
 
     <RadioButton
-        android:id="@+id/radioButton2"
+        android:id="@+id/radioButton107"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Stage 3"
@@ -368,7 +366,7 @@
         app:layout_constraintVertical_bias="0.818" />
 
     <RadioButton
-        android:id="@+id/radioButton2"
+        android:id="@+id/radioButton106"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Stage 3a"
@@ -380,7 +378,7 @@
         app:layout_constraintVertical_bias="0.818" />
 
     <RadioButton
-        android:id="@+id/radioButton2"
+        android:id="@+id/radioButton105"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Stage 4"
@@ -392,7 +390,7 @@
         app:layout_constraintVertical_bias="0.9" />
 
     <RadioButton
-        android:id="@+id/radioButton2"
+        android:id="@+id/radioButton104"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Stage 3b"
@@ -404,7 +402,7 @@
         app:layout_constraintVertical_bias="0.818" />
 
     <RadioButton
-        android:id="@+id/radioButton2"
+        android:id="@+id/radioButton103"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Stage 3c"
@@ -416,7 +414,7 @@
         app:layout_constraintVertical_bias="0.818" />
 
     <RadioButton
-        android:id="@+id/radioButton2"
+        android:id="@+id/radioButton102"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Stage 1a"
@@ -428,7 +426,7 @@
         app:layout_constraintVertical_bias="0.653" />
 
     <RadioButton
-        android:id="@+id/radioButton2"
+        android:id="@+id/radioButton101"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Stage 1b"
@@ -440,7 +438,7 @@
         app:layout_constraintVertical_bias="0.653" />
 
     <RadioButton
-        android:id="@+id/radioButton2"
+        android:id="@+id/radioButton100"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Stage 1c"
@@ -452,7 +450,6 @@
         app:layout_constraintVertical_bias="0.653" />
 
     <Button
-        android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BACK"
@@ -464,7 +461,7 @@
         app:layout_constraintVertical_bias="0.976" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnnext8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="NEXT"
@@ -473,7 +470,7 @@
         app:layout_constraintHorizontal_bias="0.721"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" /><![CDATA[
+        app:layout_constraintVertical_bias="0.976" />
 
 
 
@@ -490,9 +487,6 @@
 
 
 
-        app:layout_constraintStart_toStartOf=
-        app:layout_constraintTop_toTopOf=
-        app:layout_constraintVertical_bias=0.355" />
 
 
 
@@ -504,5 +498,5 @@
 
 
 
-]]>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="#5A0C68"
     tools:context=".homepage">
-
+//
     <Button
         android:id="@+id/incident"
         android:layout_width="wrap_content"

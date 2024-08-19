@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="#E8E5ED"
     tools:context=".incident2">
-
+//
     <TextView
         android:id="@+id/textView8"
         android:layout_width="85dp"

@@ -5,10 +5,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.pbcr.MORTALITY1">
+    tools:context="com.pbcr.mortality1">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar11"
+        android:id="@+id/toolbar14"
         android:layout_width="410dp"
         android:layout_height="123dp"
         android:background="?attr/colorPrimary"
@@ -166,7 +166,7 @@
         app:layout_constraintVertical_bias="0.412" />
 
     <Spinner
-        android:id="@+id/spinner19"
+        android:id="@+id/spinner20"
         android:layout_width="118dp"
         android:layout_height="53dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -177,7 +177,7 @@
         app:layout_constraintVertical_bias="0.463" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/morback1"
         android:layout_width="120dp"
         android:layout_height="38dp"
         android:text="back"
@@ -189,7 +189,7 @@
         app:layout_constraintVertical_bias="0.939" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/mornext1"
         android:layout_width="120dp"
         android:layout_height="38dp"
         android:text="next"
@@ -200,9 +200,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.939" />
 
-    <CalendarView
-        android:id="@+id/calendarView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="298dp"
-        tools:layout_editor_absoluteY="594dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

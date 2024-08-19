@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="#F6F5FA"
     tools:context=".incident1">
-
+//
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="468dp"
