@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pbcr">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -18,28 +19,34 @@
         tools:ignore="ExtraText"
         tools:targetApi="31">
         <activity
-            android:name=".mortality2"
-            android:exported="false" />
-        <activity
             android:name=".mortality1"
             android:exported="false" />
         <activity
-            android:name=".incident10"
+            android:name=".followup"
             android:exported="false" />
         <activity
-            android:name=".incident9"
+            android:name=".mortality5"
             android:exported="false" />
         <activity
-            android:name=".incident7"
+            android:name=".mortality3"
             android:exported="false" />
         <activity
-            android:name=".incident6"
+            android:name=".mortality4"
+            android:exported="false" />
+        <activity
+            android:name=".mortality2"
+            android:exported="false" />
+        <activity
+            android:name=".inc"
+            android:exported="false" />
+        <activity
+            android:name=".mortalityn"
+            android:exported="false" />
+        <activity
+            android:name=".incident13"
             android:exported="false" />
         <activity
             android:name=".incident4"
-            android:exported="false" />
-        <activity
-            android:name=".incident5"
             android:exported="false" />
         <activity
             android:name=".incident3"
